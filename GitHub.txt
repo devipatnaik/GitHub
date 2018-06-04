@@ -69,5 +69,53 @@ How to Push or Uplad a File in Git Repository
 
 => Then Click on Strat Project => Repository Name : GitHub
 
-=>
+Steps:
+======
+Sujata@DESKTOP-3ME65CD MINGW64 ~
+$ pwd
+/c/Users/Sujata
+
+Sujata@DESKTOP-3ME65CD MINGW64 ~
+$ cd /H/
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H
+$ pwd
+/H
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H
+$ ls
+'$RECYCLE.BIN'/   GitHub/  'System Volume Information'/
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H
+$ cd GitHub/
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H/GitHub
+$ git init
+Initialized empty Git repository in H:/GitHub/.git/
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H/GitHub (master)
+$ git remote add origin https://github.com/devipatnaik/GitHub.git
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H/GitHub (master)
+$ git add .
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H/GitHub (master)
+$ git commit -m "My Commit"
+[master (root-commit) c0c0487] My Commit
+ 1 file changed, 73 insertions(+)
+ create mode 100644 GitHub.txt
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H/GitHub (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.17 KiB | 1.17 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/devipatnaik/GitHub.git
+ * [new branch]      master -> master
+
+Sujata@DESKTOP-3ME65CD MINGW64 /H/GitHub (master)
+$
+
 
