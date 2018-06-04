@@ -1,0 +1,73 @@
+Source Code Push in GitHub
+==========================
+Step:1 - Craete a GitHub Account or Sign in with your existing account.
+
+Step:2 - Click on Start Project button == Create a Repository.
+
+Step:3 - Then Click on Strat Project => Repository Name : SpringCRUDRestWebService
+
+=> Dont change any thing keep as it is, then click on Create Repository Button.
+
+Check out code from Github to eclipse
+=====================================
+Step:4 - Start eclipse
+
+Step:5 - Goto Prespective =>Git Repository and click on Add Git Repository.
+
+Now push eclipse project to Git Repository.
+===========================================
+
+Step:6 - Create a project or existing project in eclipse.
+
+Step:7 - Now Right Click on Project => Team => Share project => Add to Git Repo.
+
+Step:8 - A new pop up will appeare with textboxes,=>in Repository field pass the url of Git Repo.
+
+Step:8 - Now R.C on project=>Team=>Commit=>then in Unstaged Changes drag and drop at Staged Changes=> then, click on Commit and Push button=>Next=>Finish.
+
+Step:9 - Commit and Push every changes to the Repo
+
+
+
+*********************************************************************************************************************
+*********************************************************************************************************************
+
+How to Push the eclipse project Source code from Local Machine (workspace) to Git Repo.
+=======================================================================================
+Step:1 - Craete a GitHub Account or Sign in with your existing account.
+
+Step:2 - Click on Start Project button == Create a Repository.
+
+Step:3 - Then Click on Strat Project => Repository Name : SpringCRUDRestWebService
+
+=> Dont change any thing keep as it is, then click on Create Repository Button.
+
+=> Then Goto Project folder(Workspace of your eclipse) then Open the CMD Prompt.
+
+=> Befor we proceed we just remove the git related files in the folder.
+->execute(CMD) -> C:\Workspace-STS1\SpringCRUDRestWebService>rd .git /S/Q  (Enter)
+->Afetr that we will Initiate a new Git Repository in our Local Enviornment.
+
+So that we have to follow beow Steps:
+
+-> git init
+-> git add .
+-> git commit -m "My First Commit"
+-> So, we have created our Git Repo which is empty for the moment Okay...
+-> Then we craeted our Local Git Repo 
+-> Next, we need to configure with each other.
+-> Then execute, git remote add origin https://github.com/devipatnaik/SpringCRUDRestWebService.git
+-> Now the Git configured has been done,
+-> And the last step you need to Push all the changes to Git Repo.
+-> git push -u origin master (Enter).
+
+***************** Thank U **********************************
+
+How to Push or Uplad a File in Git Repository
+=============================================
+=> Click on Start Project button == Create a Repository
+
+=> Then Click on Strat Project => Repository Name : GitHub
+
+=>
+
